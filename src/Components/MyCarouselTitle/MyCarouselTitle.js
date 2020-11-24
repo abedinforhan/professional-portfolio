@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from "react-bootstrap/Button";
 import styled from "styled-components";
 import Typewriter from "typewriter-effect";
 
@@ -48,6 +49,10 @@ const MyCarouselTitle = () => {
                 delay: 50
                 }}
             />
+            <a href="https://drive.google.com/file/d/1U_v7qeQfL65UFSMlHGVxh5K2bxungiNq/view?usp=sharing">
+            <Button className="m-2 px-3" variant="danger" size="md"
+            >Let's Talk</Button>
+            </a>
             </div>
         </div>
         </div>
