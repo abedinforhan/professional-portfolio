@@ -7,6 +7,7 @@ const MyNavbar = () => {
     return (
      <>
           <Navbar collapseOnSelect 
+          fixed="top"
           expand="md"  
           variant="dark"
           className={[styles.nav__theme , styles.animate__navbar , 'justify-content-between'].join(' ')}
@@ -19,7 +20,7 @@ const MyNavbar = () => {
             <Nav className="ml-auto">
                 <Nav.Link href="#home">Home</Nav.Link>
                 <Nav.Link href="#about">About</Nav.Link>
-                <Nav.Link href="#skilss">Skilss</Nav.Link>
+                <Nav.Link href="#skills">Skilss</Nav.Link>
                 <Nav.Link href="#experiences">Experiences</Nav.Link>
                 <Nav.Link href="#projects">Projects</Nav.Link>
                 <Nav.Link href="#contact">Contact</Nav.Link>
