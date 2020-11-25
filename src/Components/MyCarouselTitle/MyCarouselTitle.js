@@ -49,10 +49,12 @@ const MyCarouselTitle = () => {
                 delay: 50
                 }}
             />
-            <a href="https://drive.google.com/file/d/1U_v7qeQfL65UFSMlHGVxh5K2bxungiNq/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1U_v7qeQfL65UFSMlHGVxh5K2bxungiNq/view?usp=sharing
+            " target="_blank">
             <Button className="m-2 px-3" variant="danger" size="md"
-            >Let's Talk</Button>
+            >See My Resume </Button>
             </a>
+            
             </div>
         </div>
         </div>

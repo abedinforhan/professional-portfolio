@@ -7,10 +7,10 @@ const MyNavbar = () => {
     return (
      <>
           <Navbar collapseOnSelect 
-          fixed="top"
-          expand="md"  
-          variant="dark"
-          className={[styles.nav__theme , styles.animate__navbar , 'justify-content-between'].join(' ')}
+             fixed="top"
+             expand="md"  
+             variant="dark"
+             className={[styles.nav__theme , styles.animate__navbar , 'justify-content-between'].join(' ')}
           >
             <Navbar.Brand href="#home">
                 <h3 className={styles.nav__logo}>MezbauL AbediN ForhaN</h3>
